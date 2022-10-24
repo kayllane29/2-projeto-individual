@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+	background-image: url("gif/gif tecnologia.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: white;
+}
+
+main{
+	margin-left: 600px; ;
+}
+
+header{
+	margin-left: 550px;
+}
+
+
+
+h1{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-size: 50px;
+}
+
+
+

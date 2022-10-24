@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificação e Descodificação</title>
+    <link rel="stylesheet" href="projetoindividual.css">
+    <link rel="stylesheet" href="gif/gif tecnologia.gif">
+    <script src="projetoindividual.js"></script>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <h1 class="caixa">Codificador</h1>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div id="pizza">
+                <img src="img/anoni.jpg" alt="">
+            </div>
+
+            <select name="escolha-codigo" id="codigo-escolhido">
+                <option value="select" id="opção-selecione" disabled selected>Selecione </option>
+                <option value="cifraCesar" id="opção-cifra">Cifra de César</option>
+                <option value="base.64" id="opção-base">Base64</option>
+            </select>
+
+            <div id="quantidade">
+                <h4>Escolha o incremento:</h3>
+                    <lable id="lable-passo" class="lable-msg"> </lable>
+                    <input id="passo" type="number" class="passo" min=1 max=25 placeholder="1-25">
+            </div>
+          
+            <div class="opcao">
+                <input type="radio" name="r1" id="codi" value="codi">Codificar
+                <input type="radio" name="r1" id="decodi" value="decodi">Decodifica
+            </div>
+            <br>
+
+            <input type="text" id="txt" placeholder="Escreva aqui">
+
+            <h3> Resultado </h3>
+
+            <input type="text" id="resul" placeholder="Resultado...">
+            <br><br>
+
+            <div class="botao">
+                <button type="submit" class="resul" id="button"> <b> Gerar Resultado</b> </button>
+            </div>
+        </div>
+        <br>
+    </main>      
+</body>
+</html>
